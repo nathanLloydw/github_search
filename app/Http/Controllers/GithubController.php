@@ -12,7 +12,7 @@ class GithubController extends BaseController
     const BASE_URL = 'https://api.github.com';
 
     // a limit to how many results are returned to a query
-    const LIMIT = 15;
+    const LIMIT = 5;
 
     /**
      * @param $url
