@@ -19,7 +19,7 @@
                             <span>{{repo.stargazers_count}}</span>
                         </div>
                         <div class="w-[20%] whitespace-nowrap px-2">{{repo.updated_at.split('T')[0]}}</div>
-                        <h4  class="w-[25%] whitespace-nowrap px-2 hover:text-purple-500 cursor-pointer font-semibold tracking-wider text-[#242d3c]" @click="redirect(repo.url)">view repo</h4>
+                        <h4  class="w-[25%] whitespace-nowrap px-2 hover:text-purple-500 cursor-pointer font-semibold tracking-wider text-[#242d3c]" @click="redirect(repo.svn_url)">view repo</h4>
                     </div>
                 </div>
             </div>
